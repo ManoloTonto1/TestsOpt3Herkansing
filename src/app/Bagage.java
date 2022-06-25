@@ -4,9 +4,10 @@ public class Bagage {
     private Boolean gehandeldDoorLuchthaven;
 
     /**
-     * 
+     * @param gehandeldDoorLuchthaven
      */
-    public Bagage() {
+    public Bagage(Boolean gehandeldDoorLuchthaven) {
+        this.gehandeldDoorLuchthaven = gehandeldDoorLuchthaven;
     }
 
     /**

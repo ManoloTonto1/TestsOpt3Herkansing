@@ -130,9 +130,11 @@ public class Vlucht {
 
         if (gewicht < 1000 && gewicht != 0)
             total += 100;
-        if (gewicht > 1000 && gewicht < 5000)
+        if (gewicht >= 1000 && gewicht < 5000)
+            total += 500;
+        if (gewicht >= 5000)
             total += 2500;
-        if (aantalPassagiers > 2)
+        if (aantalPassagiers > 2 && aantalPassagiers > 0)
             total *= 1.5;
         if (bagage.getGehandeldDoorLuchthaven())
             total += 800;

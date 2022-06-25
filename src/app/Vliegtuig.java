@@ -4,6 +4,13 @@ public class Vliegtuig {
     private Boolean nederlandseVliegtuig;
 
     /**
+     * @param nederlandseVliegtuig
+     */
+    public Vliegtuig(Boolean nederlandseVliegtuig) {
+        this.nederlandseVliegtuig = nederlandseVliegtuig;
+    }
+
+    /**
      * @return the nederlandseVliegtuig
      */
     public Boolean getNederlandseVliegtuig() {
@@ -17,11 +24,7 @@ public class Vliegtuig {
         this.nederlandseVliegtuig = nederlandseVliegtuig;
     }
 
-    /**
-     * 
-     */
-    public Vliegtuig() {
-    }
+
 
 
 
