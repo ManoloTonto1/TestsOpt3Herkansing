@@ -1,3 +1,4 @@
+package app;
 public class Bagage {
 
     private Boolean gehandeldDoorLuchthaven;

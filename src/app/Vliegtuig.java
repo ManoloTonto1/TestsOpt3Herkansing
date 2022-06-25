@@ -1,3 +1,4 @@
+package app;
 public class Vliegtuig {
 
     private Boolean nederlandseVliegtuig;

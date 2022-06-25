@@ -1,3 +1,4 @@
+package app;
 public class Vlucht {
 
     private boolean magOpstijgen;
@@ -6,6 +7,12 @@ public class Vlucht {
     private int gewicht;
     private int tegenwindHoeveelheid;
     private int totalBedrag;
+
+    /**
+     * 
+     */
+    public Vlucht() {
+    }
 
     /**
      * @param magOpstijgen
@@ -109,8 +116,8 @@ public class Vlucht {
         this.totalBedrag = totalBedrag;
     }
 
-    public boolean magOpstijgen(int gewicht, boolean magOpstijgenLuchthaven, int tegenwindHoeveelheid) {
-        if (gewicht > 1000 || tegenwindHoeveelheid > 50 && magOpstijgenLuchthaven) {
+    public boolean magOpstijgen(int gewicht, int tegenwindHoeveelheid, boolean magOpstijgenLuchthaven) {
+        if ((gewicht < 1000 || tegenwindHoeveelheid > 50) && magOpstijgenLuchthaven) {
             return true;
         } else {
             return false;
