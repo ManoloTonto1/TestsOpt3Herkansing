@@ -17,7 +17,7 @@ Als de bagage afgehandeld moet worden door de luchthaven komt hier een bedrag va
 Tenslotte, als het een *Nederlands* vliegtuig is moet over dit totaalbedrag (dat afhankelijk is van gewicht, het aantal passagiers en het wel of niet afhandelenvan bagage) 21% BTW worden betaald.
 
 # classes:
-### Vlucht
-### vliegtuig
-### Bagage
+### -Vlucht
+### -vliegtuig
+### -Bagage
 

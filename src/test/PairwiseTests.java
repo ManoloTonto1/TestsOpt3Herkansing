@@ -12,7 +12,7 @@ public class PairwiseTests {
     static Vlucht vlucht = new Vlucht();
 
     @Test
-    public void calcLanding_500_2_ja_ja() {
+    public void calcLanding_500_2_ja_ja_Expect_1149() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(true);
@@ -24,7 +24,7 @@ public class PairwiseTests {
     }
 
     @Test
-    public void calcLanding_500_50_nee_nee() {
+    public void calcLanding_500_50_nee_nee_Expected_150() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(false);
@@ -35,7 +35,7 @@ public class PairwiseTests {
         assertEquals(150, result);
     }
     @Test
-    public void calcLanding_1500_2_ja_nee() {
+    public void calcLanding_1500_2_ja_nee_Expected_907() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(true);
@@ -46,7 +46,7 @@ public class PairwiseTests {
         assertEquals(907, result);
     }
     @Test
-    public void calcLanding_1500_50_nee_ja() {
+    public void calcLanding_1500_50_nee_ja_Expected_1550() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(false);
@@ -57,7 +57,7 @@ public class PairwiseTests {
         assertEquals(1550, result);
     }
     @Test
-    public void calcLanding_6500_2_nee_ja() {
+    public void calcLanding_6500_2_nee_ja_Expected_4550() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(false);
@@ -68,7 +68,7 @@ public class PairwiseTests {
         assertEquals(4550, result);
     }
     @Test
-    public void calcLanding_6500_50_ja_nee() {
+    public void calcLanding_6500_50_ja_nee_Expected_4537s() {
         // arrange
         int result;
         Vliegtuig vliegtuig = new Vliegtuig(true);
