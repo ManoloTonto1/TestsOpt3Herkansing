@@ -18,6 +18,6 @@ Tenslotte, als het een *Nederlands* vliegtuig is moet over dit totaalbedrag (dat
 
 # classes:
 ### -Vlucht
-### -vliegtuig
+### -Vliegtuig
 ### -Bagage
 
